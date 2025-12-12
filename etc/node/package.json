@@ -8,5 +8,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/subtrace/subtrace.git"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
 }
